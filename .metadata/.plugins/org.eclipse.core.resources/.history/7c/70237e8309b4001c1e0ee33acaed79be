@@ -1,0 +1,44 @@
+package com.capg.day7;
+
+public class Fruits {
+	private double Price;
+	private String Color;
+	private String Name;
+	
+	public Fruits(double Price,String Color,String Name) {
+		this.setPrice(Price);
+		this.setColor(Color);
+		this.setName(Name);
+	}
+
+	public String getColor() {
+		return Color;
+	}
+
+	public void setColor(String color) {
+		Color = color;
+	}
+
+	public double getPrice() {
+		return Price;
+	}
+
+	public void setPrice(double price) {
+		Price = price;
+	}
+
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Fruits [Price=" + Price + ", Color=" + Color + ", Name=" + Name + "]";
+	}
+	
+
+}

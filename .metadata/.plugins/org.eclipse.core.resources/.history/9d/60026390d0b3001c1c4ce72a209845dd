@@ -1,0 +1,38 @@
+
+ class Person {
+	 private int rno;
+	 private String name;
+	  
+	 public Person(int rno,String name) {
+		 this.rno=rno;
+		 this.name=name;
+	 }
+
+	public int getRno() {
+		return rno;
+	}
+
+	public void setRno(int rno) {
+		this.rno = rno;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	 
+ }
+
+public class Student1 {
+	public static void main(String[] args){
+		Person p=new Person(101,"Laxmi");
+		System.out.println(p.getRno());
+		System.out.println(p.getName());
+		
+		
+	}
+
+}

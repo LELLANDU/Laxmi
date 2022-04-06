@@ -1,0 +1,25 @@
+package com.capg.day8;
+
+interface Lambda{
+	public void print();
+}
+interface SumInterface{
+	public void sum(int a,int b);
+}
+
+public class MyLambda {
+
+	public static void main(String[] args) {
+		Lambda result=()->System.out.println("hello java lambda");
+		result.print();
+		
+		SumInterface sumInteface=(int a,int b)->{int c= a+b;
+		System.out.println(c);
+		};
+		
+		sumInteface.sum(10, 10);
+	 	
+
+	}
+
+}

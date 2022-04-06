@@ -1,0 +1,18 @@
+package com.capg.day8;
+
+import java.util.ArrayList;
+
+public class MyEmployeeMain {
+
+	public static void main(String[] args) {
+		ArrayList<MyEmployee>ls=new ArrayList<MyEmployee>();
+		ls.add(new MyEmployee(1001,"pooja",1000));
+		ls.add(new MyEmployee(1001,"Kalpana",2000));
+		ls.add(new MyEmployee(1001,"Laxmi",4000));
+		ls.add(new MyEmployee(1001,"Lucky",5000));
+		System.out.println(ls);
+
+
+	}
+
+}

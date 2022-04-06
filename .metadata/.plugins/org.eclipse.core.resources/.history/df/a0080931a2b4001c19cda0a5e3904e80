@@ -1,0 +1,25 @@
+package com.capg.day8;
+
+interface EvenOdd{
+	public static void even(int a) {
+		
+	}
+
+	
+}
+
+public class MyLambda1 {
+
+	public static void main(String[] args) {
+		EvenOdd evenOdd=(int a)->{
+			if(a%2==0) {
+				System.out.println("numner"+a+"is even");
+			}
+			else
+				System.out.println("numner"+a+"is odd");
+		};
+		
+		EvenOdd.even(11);
+		}
+	    	
+	}

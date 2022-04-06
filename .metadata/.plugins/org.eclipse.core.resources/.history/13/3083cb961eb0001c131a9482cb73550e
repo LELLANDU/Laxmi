@@ -1,0 +1,15 @@
+package com.capg.com;
+
+public interface Calling{
+	
+}
+
+public class Mobile {
+
+	public static void main(String[] args) {
+		
+	
+	}
+	
+}
+

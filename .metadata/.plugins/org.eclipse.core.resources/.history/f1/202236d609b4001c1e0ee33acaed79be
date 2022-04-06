@@ -1,0 +1,17 @@
+package com.capg.day7;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Fruity {
+
+	public static void main(String[] args) {
+		List<Fruits> list=new ArrayList<Fruits>();
+		new Fruits(10,"Apple");
+		new Fruits(20,"Graps");
+		new Fruits(10,"Mango");
+		
+		System.out.println(list);
+	}
+
+}

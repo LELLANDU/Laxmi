@@ -1,0 +1,9 @@
+package com.capg.day5;
+
+public class MyDoubleArray {
+	double arr[]=new double[] {0.1,0.5,0.9};
+	
+	for(double x:arr)
+		Syatem.out.println(x);
+
+}

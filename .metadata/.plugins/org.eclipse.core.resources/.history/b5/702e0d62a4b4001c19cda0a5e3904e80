@@ -1,0 +1,34 @@
+package com.capg.day8;
+
+interface EvenOdd{
+	void check(int a) ;
+		
+	}
+interface PosNeg{
+	void check(int num);
+}
+
+public class MyLambda1 {
+
+	public static void main(String[] args) {
+		EvenOdd evenOdd=(int a)->{
+			if(a%2==0) {
+				System.out.println("number "+a+" is even");
+			}
+			else
+				System.out.println("number "+a+" is odd");
+			};		
+		
+		evenOdd.check(13);
+		
+		PosNeg posNeg=(int num)->{
+			if(num<0)
+				System.out.println("Number " +num+ " is Negative");
+			else
+				System.out.println("Number " +num+" is Postive");
+		};
+		
+		posNeg.check(5);
+		}
+	    	
+	}

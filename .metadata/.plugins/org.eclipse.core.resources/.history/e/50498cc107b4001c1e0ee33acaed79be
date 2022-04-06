@@ -1,0 +1,11 @@
+package com.capg.day7;
+
+public class Apple {
+        int Price = 30;
+		String Color="RED";
+		
+		
+
+	}
+
+}
